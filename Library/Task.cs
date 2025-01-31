@@ -68,8 +68,7 @@ public class Task
     {
         status = "Не выполнена";
     }
-
-    // return _title + " - " + _description + " (" + status + ")";
+    
     return $"{_title} - {_description} - ( {status} )";
 }
 }
